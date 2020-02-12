@@ -31,5 +31,22 @@
     "ammo_type": [ "40", "10mm" ],
     "capacity": 12,
     "flags": [ "SPEEDLOADER" ]
+  },
+  {
+    "id": "ak_tec9mag",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": "Akimbo TEC-9 magazines",
+    "description": "Two cheap and somewhat unreliable 32-round steel box magazine for use with the Akimbo TEC-9.",
+    "weight": "440 g",
+    "volume": "800 ml",
+    "price": 3100,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "9mm",
+    "capacity": 64,
+    "reliability": 7,
+    "flags": [ "MAG_COMPACT" ]
   }
 ]

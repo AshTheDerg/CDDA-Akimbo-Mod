@@ -46,5 +46,30 @@
     "clip_size": 12,
 	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "twin-shot", 2 ] ],
     "magazines": [ [ "40", [ "ak_40_speedloader" ] ] ]
+  },
+  {
+    "id": "ak_tec9",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": "TEC-9 Akimbo",
+    "description": "Two TEC-9s. Why?",
+    "weight": "2800 g",
+    "volume": "800 ml",
+    "price": 125000,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": "steel",
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "9mm",
+    "skill": "smg",
+    "dispersion": 1000,
+    "durability": 6,
+    "min_cycle_recoil": 450,
+    "modes": [ [ "DEFAULT", "burst", 4 ], [ "BURST", "Twin-Burst", 8 ] ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "magazine_well": 1,
+    "magazines": [ [ "9mm", [ "ak_tec9mag" ] ] ]
   }
 ]
