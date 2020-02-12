@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+	"id": "guns_obscure",
+	"items": [ { "item": "ak_glock_17", "prob": 35, "charges-min": 0, "charges-max": 15 } ]
+  },
+  {
+    "type": "item_group",
+	"id": "book_gunmags",
+	"items": [ [ "ak_pistol_book", 50 ] ]
+  }
+]

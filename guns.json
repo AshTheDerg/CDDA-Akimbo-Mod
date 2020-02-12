@@ -1,0 +1,26 @@
+[  
+  {
+    "id": "ak_glock_17",
+    "copy-from": "pistol_base",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "name": "Glock 17 Akimbo",
+    "description": "Two Glock 17s. Look at you, Action Hero.",
+    "weight": "1260 g",
+    "volume": 1,
+    "price": 69000,
+    "to_hit": -4,
+    "bashing": 12,
+    "material": [ "plastic", "steel" ],
+    "color": "dark_gray",
+    "ammo": "9mm",
+    "ranged_damage": -1,
+    "dispersion": 650,
+    "durability": 6,
+    "blackpowder_tolerance": 48,
+    "min_cycle_recoil": 380,
+    "magazine_well": 1,
+	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "twin-shot", 2 ] ],
+	"magazines": [ [ "9mm", [ "ak_glockmag" ] ] ]
+  }
+]
