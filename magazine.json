@@ -15,5 +15,21 @@
     "capacity": 34,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "ak_40_speedloader",
+    "looks_like": "38_speedloader",
+    "type": "MAGAZINE",
+    "name": "Akimbo .40 6-round speedloaders",
+    "description": "Two speedloaders holding 6 rounds of .40 S&W or 10mm Auto each.",
+    "weight": "92 g",
+    "volume": "250 ml",
+    "price": 1500,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "40", "10mm" ],
+    "capacity": 12,
+    "flags": [ "SPEEDLOADER" ]
   }
 ]
