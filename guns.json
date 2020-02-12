@@ -71,5 +71,31 @@
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "magazine_well": 1,
     "magazines": [ [ "9mm", [ "ak_tec9mag" ] ] ]
+  },
+  {
+    "id": "ak_deagle",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "Akimbo Desert Eagle .44", "str_pl": "Akimbo Desert Eagle .44" },
+    "description": "Two Desert Eagles. One for each hand. This is a REALLY bad idea.",
+    "weight": "3400 g",
+    "volume": "900 ml",
+    "price": 87500,
+    "to_hit": -2,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": "44",
+    "skill": "pistol",
+    "ranged_damage": -1,
+    "dispersion": 960,
+    "durability": 7,
+    "min_cycle_recoil": 2000,
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "magazine_well": 1,
+	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "twin-shot", 2 ] ],
+    "magazines": [ [ "44", [ "ak_deaglemag" ] ] ]
   }
 ]
