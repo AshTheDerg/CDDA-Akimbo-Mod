@@ -106,5 +106,46 @@
     "book_learn": [ [ "ak_pistol_book" ] ],
     "reversible": true,
     "components": [ [ [ "deaglemag", 2 ] ] ]
+  },
+  {
+    "result": "ak_1911",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "skills_required": [ "gun", 2 ],
+    "time": "2 m",
+    "reversible": true,
+    "book_learn": [ [ "ak_pistol_book" ] ],
+    "components": [ [ [ "m1911", 2 ] ] ]
+  },
+  {
+    "result": "ak_1911bigmag",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_PISTOL",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 2 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "ak_pistol_book" ] ],
+    "reversible": true,
+    "components": [ [ [ "m1911bigmag", 2 ] ] ]
+  },
+  {
+    "result": "ak_1911mag",
+    "type": "recipe",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_PISTOL",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "gun", 2 ],
+    "time": "2 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "ak_pistol_book" ] ],
+    "reversible": true,
+    "components": [ [ [ "m1911mag", 2 ] ] ]
   }
 ]
