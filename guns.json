@@ -97,5 +97,28 @@
     "magazine_well": 1,
 	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "twin-shot", 2 ] ],
     "magazines": [ [ "44", [ "ak_deaglemag" ] ] ]
+  },
+  {
+    "id": "ak_1911",
+    "copy-from": "pistol_base",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "name": "Akimbo M1911",
+    "description": "Two M1911s. The Action Hero classic.",
+    "weight": "2240 g",
+    "volume": "1000 ml",
+    "price": 78400,
+    "to_hit": -2,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": "45",
+    "dispersion": 480,
+    "durability": 7,
+    "min_cycle_recoil": 540,
+    "blackpowder_tolerance": 48,
+    "magazine_well": 1,
+    "magazines": [ [ "45", [ "ak_1911mag", "ak_1911bigmag" ] ] ]
   }
 ]
